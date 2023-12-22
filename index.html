@@ -38,6 +38,18 @@
         </div>
 
     </div>
-    
+
+    <script>
+        const apiKey = "c0485076282683882a6eaf70e46b7b07";
+        const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=Nagpur";
+
+        async function checkWeather(){
+            const reponse  = await fetch(apiUrl+ `&appid=${apiKey}`);
+            var data = await response.json();
+            console.log(data);
+        }
+    </script>
+
+
 </body>
 </html>
