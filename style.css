@@ -75,7 +75,7 @@ cursor: pointer;
     margin-top: -10px;
 }
 
-.display{
+.details{
     display: flex;
     align-items:center;
     justify-content: space-between;
