@@ -19,7 +19,7 @@ Welcome to WeatherNow, a simple and sleek weather app built with HTML, CSS, and 
 3. Instantly view temperature, humidity, and wind speed.
 
 ## Technologies Used:
-- **Open Weather APIs:**  ![Open Weather ](https://mundhadharsh.github.io/Weather-App/) APIs provide the weather deatils on the basis on the input city 
+- **Open Weather APIs:**  [Open Weather ](https://mundhadharsh.github.io/Weather-App/) APIs provide the weather deatils on the basis on the input city 
 
 - **HTML:** Structure for the web page.
   
