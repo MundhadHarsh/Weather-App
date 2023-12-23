@@ -110,15 +110,15 @@ cursor: pointer;
     margin-left:10px;
     font-size: 14px;
     margin-top:10px;
-    display:none;
+    display:none; 
  
 }
 
 .credits{
-        color: white;
-        position: fixed; /* You can use 'absolute' if you don't want it fixed */
-        bottom: 20px;
-        left: 15px;
+        color: white !important;
+        position: fixed !important; /* You can use 'absolute' if you don't want it fixed */
+        bottom: 20px !important;
+        left: 15px !important;
 
 
 
