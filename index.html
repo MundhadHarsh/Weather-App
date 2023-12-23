@@ -56,13 +56,13 @@
             console.log(data);
         
         
-        document.querySelector('.city').innerHTML=data.name;
-        document.querySelector('.temp').innerHTML=Math.round(data.temp)+"°c";
-        document.querySelector('.humidity').innerHTML=data.humidity +"%";
-        document.querySelector('.wind').innerHTML=data.wind + "km/h";
+        document.querySelector(".city").innerHTML=data.name;
+        document.querySelector(".temp").innerHTML=Math.round(data.temp)+"°c";
+        document.querySelector(".humidity").innerHTML=data.humidity +"%";
+        document.querySelector(".wind").innerHTML=data.wind + "km/h";
         // document.querySelector('.city').innerHTML=data.name;
         }
-        
+
         searchBtn.addEventListener("click",()=>{
             checkWeather(searchBox.value);
         } )
