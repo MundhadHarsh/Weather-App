@@ -59,7 +59,7 @@
         async function checkWeather(city){
             const response  = await fetch(apiUrl+ city +`&appid=${apiKey}`);
             var data = await response.json();
-        if(data.cod=== '404'){
+        if(data.cod== '404'){
             document.querySelector(".error").style.diplay="block";
             document.querySelector(".weather").style.display="none"; 
             console.log(data+" in the erors");
