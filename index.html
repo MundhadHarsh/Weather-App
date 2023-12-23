@@ -54,7 +54,7 @@
 
         const searchBox = document.querySelector(".search input");
         const searchBtn = document.querySelector(".search button");
-        const weatherIcon = docuemnt.querySelector(".wfeather-icon");
+        const weatherIcon = docuemnt.querySelector(".weather-icon");
         
         async function checkWeather(city){
             const response  = await fetch(apiUrl+ city +`&appid=${apiKey}`);
@@ -89,7 +89,7 @@
         }
         docuemnt.querySelector(".error").style.diplay="none";
         document.querySelector(".weather").style.display="block"; 
-
+ 
     
     }
 
