@@ -113,3 +113,13 @@ cursor: pointer;
     display:none;
  
 }
+
+.credits{
+        color: white;
+        position: fixed; /* You can use 'absolute' if you don't want it fixed */
+        bottom: 20px;
+        left: 15px;
+
+
+
+}
