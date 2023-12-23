@@ -58,8 +58,9 @@
         
         async function checkWeather(city){
             const response  = await fetch(apiUrl+ city +`&appid=${apiKey}`);
+            
         if(response.status== 400){
-            docuemnt.querySelector(".error").style.diplay="block";
+            document.querySelector(".error").style.diplay="block";
             document.querySelector(".weather").style.display="none"; 
         }else{
             var data = await response.json();
@@ -87,7 +88,7 @@
         else if(data.weather[0].main=="Mist"){
         weatherIcon.src="images/clouds.png";
         }
-        docuemnt.querySelector(".error").style.diplay="none";
+        document.querySelector(".error").style.diplay="none";
         document.querySelector(".weather").style.display="block"; 
  
     
