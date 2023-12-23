@@ -1,6 +1,6 @@
 # WeatherNow App
 
-Welcome to WeatherNow, a simple and sleek weather app built with HTML, CSS, and Javascript. Easily check the current weather conditions for different cities with just a few clicks!
+Welcome to WeatherNow, a simple and sleek weather app built with HTML, CSS, and Javascript. Easily check the real-time weather conditions for different cities with just a few clicks!
 
 ## Features:
 
